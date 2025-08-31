@@ -7,7 +7,8 @@ Technologies / libraries:
 1. Java.net and server sockets.
 2. Java multithreading.
 
-1. To run this first download both the files.
+Steps to set up:
+1. First download both the files.
 2. Run the Server class in a seperate terminal or terminal of any IDE.
 3. Open two extra terminals (Powershell/CMD for windows, respective terminal for linux and MacOS).
 4. Run the Client class seperatly.
