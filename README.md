@@ -10,3 +10,8 @@ I've built a simple TCP chatroom to which unlimited users can connect and have a
 Features/commands:
 1. /nick - for changing nickname of Client mid convo
 2. /quit - for leaving the convo, this kills the Client class, and displays "[nickname] left the chat" message to all the others.
+
+*If you want the chatroom to be active all the time, just deploy on any cloud servers like AWS, Google cloud server to host the Server.java file, and make sure to use tmux to keep the chat alive (Especially in google cloud server).
+Finally change the address in the Client.java file to your respective host address and that's it.*
+
+* # remember - anyone with the Client.java file with your host address can join the chatrooms.*
