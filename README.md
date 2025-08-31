@@ -14,4 +14,4 @@ Features/commands:
 *If you want the chatroom to be active all the time, just deploy on any cloud servers like AWS, Google cloud server to host the Server.java file, and make sure to use tmux to keep the chat alive (Especially in google cloud server).
 Finally change the address in the Client.java file to your respective host address and that's it.*
 
-* # remember - anyone with the Client.java file with your host address can join the chatrooms.*
+**remember** - anyone with the Client.java file with your host address can join the chatroom.
