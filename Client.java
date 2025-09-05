@@ -43,7 +43,7 @@ public class Client implements Runnable{
             redrawScreen();
             
             System.out.println("Connecting to server...");
-            client = new Socket("35.231.182.9", 12345);
+            client = new Socket("127.0.0.1", 12345);
             addMessage("Connected!");
             redrawScreen();
             
@@ -320,5 +320,6 @@ public class Client implements Runnable{
             client.shutdown();
         }
     }
+
 
 }
